@@ -1,0 +1,78 @@
+
+.upper-bar {
+    text-decoration: none;
+    color: white;
+}
+
+.upper-bar:hover {
+    color: aqua;
+}
+
+#upper-bar {
+    background-color: #333;
+}
+
+.carousel-item {
+    height: 600px;
+    background-position: center;
+}
+
+.slider {
+    background-color: #ddd;
+  }
+  .slider .carousel-inner {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+.carousel-button {
+    height: 8px;
+    cursor: pointer;
+}
+
+.carousel-image-1 {
+    background-image: url(https://files.hipcdn.com/photos/thailand/5599801870726f1f3600011b/5ad95449a12eda20120012fc/artisan-ratchada-condo-huai-khwang-5ad95467a12eda17ba000034_full.jpg);
+    background-size: cover;
+}
+.carousel-image-2 {
+    background-image: url(https://files.hipcdn.com/photos/thailand/5599801870726f1f3600011b/5ad95449a12eda20120012fc/artisan-ratchada-condo-huai-khwang-5ad95467a12eda17ba000034_full.jpg);
+    background-size: cover;
+}
+.carousel-image-3 {
+    background-image: url(https://files.hipcdn.com/photos/thailand/5599801870726f1f3600011b/5ad95449a12eda20120012fc/artisan-ratchada-condo-huai-khwang-5ad95467a12eda17ba000034_full.jpg);
+    background-size: cover;
+}
+
+.carousel-inner h1 {
+    position: absolute;
+    z-index: 3;
+    font-size: 60px;
+    color: #fff;
+    max-width: 800px;
+    line-height: 1.4;
+    left: 100px;
+  }
+
+  @media (max-width: 768px) {
+    .slider .carousel-inner h1 {
+      font-size: 40px;
+      max-width: 100%;
+      left: auto;
+      text-align: center;
+    }
+  }
+
+  .slider .carousel-inner .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+  }
+
+button span {
+    z-index: 9;
+}
